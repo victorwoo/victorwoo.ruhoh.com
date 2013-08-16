@@ -1,17 +1,15 @@
 ---
-title: Home
+title: 首页
 description:
 ---
 
-<h2>Start</h2>
+<h2>开始</h2>
 <p>
-  Ruhoh is all about the command-line.
-  <br>Check out the goods:
+  这是使用<a taget="_blank" href="http://ruhoh.com">ruhoh</a>架设的静态博客。
 </p>
-<pre><code>$ ruhoh help</code></pre>
 
 
-<h2>Latest Posts</h2>
+<h2>最新文章</h2>
 
 {{# posts_latest }}
 <div class="post">
@@ -20,7 +18,7 @@ description:
   {{{ summary }}}
 
   <div class="more">
-    <a href="{{url}}" class="btn">read more..</a>
+    <a href="{{url}}" class="btn">更多..</a>
   </div>
 </div>
 {{/ posts_latest }}
