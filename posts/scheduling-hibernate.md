@@ -1,5 +1,5 @@
 ---
-title:定时休眠的命令
+title: 定时休眠的命令
 date: '2013-08-16'
 description:
 tags: [hack]
