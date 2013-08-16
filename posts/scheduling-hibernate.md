@@ -7,4 +7,8 @@ tags: [hack]
 例如2个小时以后休眠：
 
     timeout /t 7200 /nobreak & shutdown /h
-注意 `shutdown /h /t xxx` 这样的组合是没用的。
+注意事项：
+
+
+1. `shutdown /h /t xxx` 这样的组合是没用的。
+2. 注意倒计时过程中不能按 `CTRL+C` 组合键来中止倒计时，否则会立即休眠。正确中止倒计时的方法是直接关闭命令行窗口。
