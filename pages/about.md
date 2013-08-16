@@ -1,6 +1,6 @@
 ---
-title : About Me
+title : 关于Victor.Woo
 description:
 ---
 
-Hello, how are you?
+关注.NET、Android、J2EE、前端、PowerShell等前沿技术。
