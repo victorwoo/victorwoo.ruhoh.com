@@ -8,9 +8,9 @@ author :
   feedburner : _feedname
 
 navigation :
-  - archive.html
-  - tags.html
+  - 存档.html
+  - 标签.html
   - 分类.html
-  - pages.html
+  - 页面.html
   - about.md
   
